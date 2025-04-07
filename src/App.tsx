@@ -1,8 +1,10 @@
-import './App.css'
+import Input from './components/util/Input'
 
 function App() {
   return (
-    <></>
+    <>
+      <Input labelText='Name' type={'text'} value={''} />
+    </>
   )
 }
 

@@ -2,8 +2,8 @@ import React from 'react'
 import { InputType } from '../../common/types';
 
 interface InputProps {
-    labelText: string;
-    placeholder: string;
+    labelText?: string;
+    placeholder?: string;
     type: InputType;
     value: string;
 }
