@@ -16,6 +16,9 @@ function App() {
         placeholder='Enter your address'
         rows={5} />
 
+      <Input
+        type={'file'}
+        value={''} />
     </>
   )
 }
