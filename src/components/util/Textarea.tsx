@@ -4,6 +4,7 @@ interface TextareaProps {
     labelText?: string;
     placeholder?: string;
     rows?: number;
+    defaulValue: string;
 }
 
 const Textarea: React.FC<TextareaProps> = ({ labelText, placeholder, rows }: TextareaProps) => {
