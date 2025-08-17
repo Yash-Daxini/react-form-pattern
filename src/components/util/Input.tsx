@@ -11,7 +11,9 @@ interface InputProps {
 const Input: React.FC<InputProps> = ({ labelText, placeholder, type, value }) => {
     return (
         <div className="mb-3">
-            <label htmlFor="basic-url" className="form-label">{labelText}</label>
+            <label htmlFor="basic-url" className="form-label">
+                {labelText}
+            </label>
             <div className="input-group">
                 <input
                     type={type}

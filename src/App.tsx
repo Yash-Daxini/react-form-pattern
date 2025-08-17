@@ -14,7 +14,8 @@ function App() {
       <Textarea
         labelText='Address'
         placeholder='Enter your address'
-        rows={5} />
+        rows={5} 
+        defaulValue={''} />
 
       <Input
         type={'file'}
